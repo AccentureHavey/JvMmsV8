@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JvEmsV8Web", "JvEmsV8Web\JvEmsV8Web.csproj", "{811CA73A-6A26-467A-9BC3-0D3E374900DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JvEmsV8BLL", "JvEmsV8BLL\JvEmsV8BLL.csproj", "{64EA70B2-9673-4C53-BB97-C63BC10397DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JvEmsV8DAL", "JvEmsV8DAL\JvEmsV8DAL.csproj", "{7883F2D6-1AD1-408B-B293-087F0D02D867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JvEmsV8Entities", "JvEmsV8Model\JvEmsV8Entities.csproj", "{F0B88F9F-7C24-4B86-AAAC-55646BED9529}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{0582B4B6-F0DF-49A6-A202-BA7E257349AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JvEmsV8IBLL", "JvEmsV8IBLL\JvEmsV8IBLL.csproj", "{C9F674D7-E428-4175-B8A8-6F622795303E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{DD053780-5F7C-4188-8DF8-EF14CA196512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JvEmsV8IDAL", "JvEmsV8IDAL\JvEmsV8IDAL.csproj", "{A34CEF5D-DE8D-494B-8CAE-3F9D966E4ECF}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.1.205:8080/tfs/jvisoft
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = JvEmsV8BLL\\JvEmsV8BLL.csproj
+		SccProjectTopLevelParentUniqueName1 = JvEmsV8.sln
+		SccProjectName1 = JvEmsV8BLL
+		SccLocalPath1 = JvEmsV8BLL
+		SccProjectUniqueName2 = JvEmsV8DAL\\JvEmsV8DAL.csproj
+		SccProjectTopLevelParentUniqueName2 = JvEmsV8.sln
+		SccProjectName2 = JvEmsV8DAL
+		SccLocalPath2 = JvEmsV8DAL
+		SccProjectUniqueName3 = JvEmsV8IBLL\\JvEmsV8IBLL.csproj
+		SccProjectTopLevelParentUniqueName3 = JvEmsV8.sln
+		SccProjectName3 = JvEmsV8IBLL
+		SccLocalPath3 = JvEmsV8IBLL
+		SccProjectUniqueName4 = JvEmsV8IDAL\\JvEmsV8IDAL.csproj
+		SccProjectTopLevelParentUniqueName4 = JvEmsV8.sln
+		SccProjectName4 = JvEmsV8IDAL
+		SccLocalPath4 = JvEmsV8IDAL
+		SccProjectUniqueName5 = JvEmsV8Model\\JvEmsV8Entities.csproj
+		SccProjectName5 = JvEmsV8Model
+		SccLocalPath5 = JvEmsV8Model
+		SccProjectUniqueName6 = JvEmsV8Web\\JvEmsV8Web.csproj
+		SccProjectName6 = JvEmsV8Web
+		SccLocalPath6 = JvEmsV8Web
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{811CA73A-6A26-467A-9BC3-0D3E374900DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{811CA73A-6A26-467A-9BC3-0D3E374900DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{811CA73A-6A26-467A-9BC3-0D3E374900DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{811CA73A-6A26-467A-9BC3-0D3E374900DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64EA70B2-9673-4C53-BB97-C63BC10397DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64EA70B2-9673-4C53-BB97-C63BC10397DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64EA70B2-9673-4C53-BB97-C63BC10397DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64EA70B2-9673-4C53-BB97-C63BC10397DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7883F2D6-1AD1-408B-B293-087F0D02D867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7883F2D6-1AD1-408B-B293-087F0D02D867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7883F2D6-1AD1-408B-B293-087F0D02D867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7883F2D6-1AD1-408B-B293-087F0D02D867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B88F9F-7C24-4B86-AAAC-55646BED9529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B88F9F-7C24-4B86-AAAC-55646BED9529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B88F9F-7C24-4B86-AAAC-55646BED9529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B88F9F-7C24-4B86-AAAC-55646BED9529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F674D7-E428-4175-B8A8-6F622795303E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F674D7-E428-4175-B8A8-6F622795303E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F674D7-E428-4175-B8A8-6F622795303E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F674D7-E428-4175-B8A8-6F622795303E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A34CEF5D-DE8D-494B-8CAE-3F9D966E4ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34CEF5D-DE8D-494B-8CAE-3F9D966E4ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34CEF5D-DE8D-494B-8CAE-3F9D966E4ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34CEF5D-DE8D-494B-8CAE-3F9D966E4ECF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64EA70B2-9673-4C53-BB97-C63BC10397DB} = {0582B4B6-F0DF-49A6-A202-BA7E257349AF}
+		{C9F674D7-E428-4175-B8A8-6F622795303E} = {0582B4B6-F0DF-49A6-A202-BA7E257349AF}
+		{7883F2D6-1AD1-408B-B293-087F0D02D867} = {DD053780-5F7C-4188-8DF8-EF14CA196512}
+		{A34CEF5D-DE8D-494B-8CAE-3F9D966E4ECF} = {DD053780-5F7C-4188-8DF8-EF14CA196512}
+	EndGlobalSection
+EndGlobal
