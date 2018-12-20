@@ -21,5 +21,10 @@ namespace JvEmsV8Web.Controllers
             //addd 
         }
 
+        public ActionResult test()
+        {
+
+        }
+
     }
 }
